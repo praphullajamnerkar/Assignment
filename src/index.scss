@@ -1,0 +1,13 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+a:not([href]){
+  color: #007bff;
+}
+.card{
+  a{
+    cursor: pointer;
+    &.close{
+      position: absolute;
+      right: 10px;
+    }
+  }
+}
